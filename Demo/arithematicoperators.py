@@ -1,7 +1,7 @@
 a=10
 b=5
 addition_result=a+b
-print(addition_result)
+print(addition_result) # subtraction_result=a-b
 subtraction_result=a-b
 print(subtraction_result)
 multiplication_result=a*b

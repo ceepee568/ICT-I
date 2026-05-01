@@ -2,6 +2,7 @@ Marks1=float(input("Enter the mark of 1st subject: "))
 Marks2=float(input("Enter the mark of 2nd subject: "))
 Marks3=float(input("Enter the mark of 3ed subject: "))
 average=(Marks1+Marks2+Marks3)/3
+print ("Your percentage is: %.2f" %(average) )
 if(average>=90 and Marks1>=50 and Marks2>=50 and Marks3>=50):
     print("Grade: A")
 elif(average>=80 and Marks1>=50 and Marks2>=50 and Marks3>=50):
